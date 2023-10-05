@@ -12,7 +12,10 @@ import qualified Data.ByteString.Lazy as BL
 import System.IO
 import System.Exit
 import GHC.Generics
+import System.Command
+import System.Directory
 import qualified Data.Vector as V
+
 
 file = "output.csv"
 storeFolder = "gits"
@@ -33,7 +36,15 @@ instance FromNamedRecord SRow where
 	parseNamedRecord x = SRow <$> x .: "User/Project" <*> x .: "Repository URL" <*> x .: "About" <*> x .: "License" <*> x .: "Stars"
 instance DefaultOrdered SRow
 
+getGits :: FilePath -> IO [String]
+getGits = listDirectory 
 
+pullGits :: FilePath -> [String] -> IO () 
+pullGits f l =  do 
+    mapM_ (\x -> print =<< getGits f) l
+
+pullGit :: String -> IO() 
+pullGit f = runCommand "git clone " ++ f
 
 
 
