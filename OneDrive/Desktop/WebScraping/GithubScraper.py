@@ -9,10 +9,10 @@ except Exception as e:
 # URLS of Github Repository Open Source Project that we want to scrape infromation from
 urls = ["https://github.com/torvalds/linux", "https://github.com/tensorflow/tensorflow", "https://github.com/microsoft/vscode",
         "https://github.com/kubernetes/kubernetes", "https://github.com/pytorch/pytorch", "https://github.com/tiangolo/fastapi",
-        "https://github.com/jupyter/notebook", "https://github.com/flutter/flutter", "https://github.com/opencv/opencv"   ]
+        "https://github.com/jupyter/notebook", "https://github.com/flutter/flutter", "https://github.com/opencv/opencv"]
 
 #Empty arrays to store data
-titles, indexs, abouts, license, stars = [], [], [], [], []
+titles, users, projects, indexs, abouts, license, stars, languages = [], [], [], [], [], [], [], []
 
 for url in urls:
     r = requests.get(url)
@@ -23,6 +23,11 @@ for url in urls:
     title_element = soup.find('title')
     title_text = title_element.get_text().strip().replace('GitHub - ', '/').split(':')
     extracted_title = title_text[0].strip() + "/"
+    titleArray = extracted_title.split('/')
+    user = titleArray[1]
+    project = titleArray[2]
+
+    
     
     # Find the element that contains the "About" description Extract the text from the "About" element
     about_element = soup.find('div', class_='BorderGrid-row')
@@ -49,6 +54,8 @@ for url in urls:
 
 
     titles.append(extracted_title)
+    users.append(user)
+    projects.append(project)
     indexs.append(url)
     abouts.append(about_text)
     license.append(license_text)
@@ -56,7 +63,8 @@ for url in urls:
 
 
 data = {
-    "User/Project": titles,
+    "User" : users,
+    "Project" : projects,
     "Repository URL": indexs,
     "About": abouts,
     "License": license,
