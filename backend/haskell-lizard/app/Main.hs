@@ -14,18 +14,26 @@ import System.Exit
 import GHC.Generics
 import qualified Data.Vector as V
 
-file = "/home/candyman/Downloads/test.csv"
+file = "output.csv"
+storeFolder = "gits"
 
-data sRow = sRow 	{ sname :: !String
-					, sabout :: !String
-					, percentables :: !String}
+data SRow = SRow    { project :: !String
+				    , repositoryUrl :: !String
+					, about :: !String
+                    , licence :: !String
+                    , starts :: !String
+                    }
 	deriving (Generic, Eq, Show)
 
-instance FromNamedRecord Thing where
-	parseNamedRecord x = fmap Thing (x .: "index") 
+-- instance FromNamedRecord SRow where
+	-- parseNamedRecord x = fmap SRow (x .: "User/Project") 
 
-instance ToNamedRecord Thing
-instance DefaultOrdered Thing
+instance ToNamedRecord SRow
+instance FromNamedRecord SRow where
+	parseNamedRecord x = SRow <$> x .: "User/Project" <*> x .: "Repository URL" <*> x .: "About" <*> x .: "License" <*> x .: "Stars"
+instance DefaultOrdered SRow
+
+
 
 
 
@@ -34,7 +42,7 @@ readFromFile = do
 	f <- BL.readFile file 
 	case (decodeByName f) of 
 		Left err -> putStrLn err
-		Right (_, v) -> V.forM_ v (\x -> print $ iindex x)
+		Right (_, v) -> V.forM_ v (\x -> print $ project x)
 
 
 
