@@ -33,6 +33,6 @@ executable haskell-lizard
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    base ^>=4.17.2.0, cassava, bytestring, vector
+    build-depends:    base ^>=4.17.2.0, cassava, bytestring, vector, directory, command, process
     hs-source-dirs:   app
     default-language: Haskell2010
