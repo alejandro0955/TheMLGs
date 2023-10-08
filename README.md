@@ -1,5 +1,4 @@
-# TheMLGs
-# CodeConnects - NASA SPACE APPS LLD
+# CodeConnects - NASA SPACE APPS Low Level Design Docunment by *The MLGs*
 
 ## Overview
 
