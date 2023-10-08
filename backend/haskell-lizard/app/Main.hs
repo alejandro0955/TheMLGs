@@ -20,7 +20,7 @@ import System.Directory
 import qualified Data.Vector as V
 
 -- file = "../../OneDrive/Desktop/WebScraping/output.csv"
-file = "../../OneDrive/Desktop/WebScraping/old.csv"
+file = "../../OneDrive/Desktop/WebScraping/massive.csv"
 fileSmall =  "/home/candyman/Downloads/githubscraper.csv"
 endF = "results.csv"
 
@@ -120,11 +120,11 @@ writeToCsv fapp l = do
 
 readFromFile :: IO ()
 readFromFile = do
-	f <- BL.readFile fileSmall
+	f <- BL.readFile file
 	case (decodeByName f) of 
 		Left err -> putStrLn err
 		-- Right (_, v) -> print $ (getListProjects v)
-		---Right (_, v) -> pullGits storeFolder (getListProjects v)
+		-- Right (_, v) -> pullGits storeFolder (getListProjects v)
 
 		Right (_, v) ->  writeToCsv f =<< ((lizardProcedure storeFolder) $ (getListProjects v))
     where
