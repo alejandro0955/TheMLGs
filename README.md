@@ -7,6 +7,8 @@ CodeConnects is a revolutionary machine learning web application designed to enh
 
 ## Infrastructure Setup Design
 
+![CodeConnectInfrastructure](CodeConnectInfrastructure1.drawio.png)
+
 ### Goals
 
 - Fetch upstream data from Github.com and extract necessary elements from most popular and trending open-source repositories, with a minimum of 50 projects stored in a CSV file.
