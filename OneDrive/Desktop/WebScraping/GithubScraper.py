@@ -22,8 +22,7 @@ urls = [
         "https://github.com/nasa/osal", "https://github.com/opencv/opencv", "https://github.com/NeoGeographyToolkit/StereoPipeline",
         "https://github.com/nasa/cumulus", "https://github.com/nasa/hybridq", "https://github.com/nasa/astrobee",
         "https://github.com/larymak/Python-project-Scripts", "https://github.com/Akash-goyal-github/Inventory-Management-System", "https://github.com/dewanakl/Kamu",
-        "https://github.com/QingXia-Ela/vue-mini-player", "https://github.com/nasa/Open-Source-Catalog" 
-        
+        "https://github.com/QingXia-Ela/vue-mini-player", "https://github.com/nasa/Open-Source-Catalog", 
         ]
 
 #Empty arrays to store data
