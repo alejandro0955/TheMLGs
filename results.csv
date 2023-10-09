@@ -1,50 +1,50 @@
-Name,Language,Link,Difficulty
-Repo 1,Python,Link 1,70%
-Repo 2,Java,Link 2,35%
-Repo 3,Python,Link 3,56%
-Repo 4,Python,Link 4,58%
-Repo 5,JavaScript,Link 5,96%
-Repo 6,Python,Link 6,73%
-Repo 7,Python,Link 7,71%
-Repo 8,Java,Link 8,55%
-Repo 9,Python,Link 9,80%
-Repo 10,Python,Link 10,65%
-Repo 11,Java,Link 11,16%
-Repo 12,Java,Link 12,8%
-Repo 13,Python,Link 13,10%
-Repo 14,JavaScript,Link 14,70%
-Repo 15,JavaScript,Link 15,7%
-Repo 16,Java,Link 16,43%
-Repo 17,JavaScript,Link 17,6%
-Repo 18,JavaScript,Link 18,74%
-Repo 19,Java,Link 19,16%
-Repo 20,Python,Link 20,55%
-Repo 21,JavaScript,Link 21,16%
-Repo 22,Java,Link 22,33%
-Repo 23,JavaScript,Link 23,45%
-Repo 24,Python,Link 24,72%
-Repo 25,JavaScript,Link 25,74%
-Repo 26,JavaScript,Link 26,33%
-Repo 27,JavaScript,Link 27,25%
-Repo 28,JavaScript,Link 28,37%
-Repo 29,Java,Link 29,97%
-Repo 30,Java,Link 30,6%
-Repo 31,Python,Link 31,51%
-Repo 32,Python,Link 32,76%
-Repo 33,Java,Link 33,36%
-Repo 34,Python,Link 34,94%
-Repo 35,Java,Link 35,96%
-Repo 36,Python,Link 36,56%
-Repo 37,Java,Link 37,17%
-Repo 38,Java,Link 38,76%
-Repo 39,Python,Link 39,37%
-Repo 40,Java,Link 40,46%
-Repo 41,Python,Link 41,83%
-Repo 42,Java,Link 42,91%
-Repo 43,JavaScript,Link 43,30%
-Repo 44,Python,Link 44,55%
-Repo 45,JavaScript,Link 45,39%
-Repo 46,JavaScript,Link 46,20%
-Repo 47,Java,Link 47,85%
-Repo 48,Python,Link 48,54%
-Repo 49,JavaScript,Link 49,49%
+Name,Link,Language,Difficulty
+linux,https://github.com/torvalds/linux,"['C 98.2', 'Assembly 0.8', 'Shell 0.4', 'Makefile 0.2', 'Python 0.2', 'Perl 0.1', 'Other 0.1']",80.80946292
+tensorflow,https://github.com/tensorflow/tensorflow,"['C++ 56.3', 'Python 27.1', 'MLIR 5.7', 'Starlark 4.0', 'HTML 2.8', 'Go 1.3', 'Other 2.8']",134.2468879
+vscode,https://github.com/microsoft/vscode,"['TypeScript 93.6', 'JavaScript 2.0', 'CSS 1.6', 'Rust 0.9', 'HTML 0.8', 'Inno Setup 0.6', 'Other 0.5']",38.72093875
+kubernetes,https://github.com/kubernetes/kubernetes,"['Go 96.9', 'Shell 2.7', 'PowerShell 0.2', 'Makefile 0.1', 'Dockerfile 0.1', 'Python 0.0']",94.00857564
+pytorch,https://github.com/pytorch/pytorch,"['Python 48.0', 'C++ 42.3', 'Cuda 3.8', 'C 2.2', 'Objective-C++ 1.4', 'CMake 0.8', 'Other 1.5']",89.66643935
+fastapi,https://github.com/tiangolo/fastapi,['Python 100.0'],25.3434098
+notebook,https://github.com/jupyter/notebook,"['Jupyter Notebook 77.6', 'TypeScript 15.9', 'Python 2.2', 'JavaScript 1.8', 'CSS 1.7', 'HTML 0.8']",8.63894156
+flutter,https://github.com/flutter/flutter,"['Dart 98.7', 'C++ 0.3', 'Objective-C 0.2', 'CMake 0.2', 'Java 0.1', 'Groovy 0.1', 'Other 0.4']",18.19858688
+OpenMDAO-Framework,https://github.com/OpenMDAO/OpenMDAO-Framework,"['Python 86.5', 'Fortran 7.7', 'HTML 3.3', 'C 2.3', 'Shell 0.1', 'Batchfile 0.1']",4.83012171
+react-native,https://github.com/facebook/react-native,"['Java 26.8', 'C++ 26.4', 'JavaScript 16.1', 'Objective-C++ 11.4', 'Objective-C 9.7', 'Kotlin 4.4', 'Other 5.2']",40.57928681
+DALL-E,https://github.com/openai/DALL-E,"['Python 77.1', 'Jupyter Notebook 22.9']",57.10019906
+yolov7,https://github.com/WongKinYiu/yolov7,"['Jupyter Notebook 98.8', 'Python 1.2']",80.14846684
+jenkins,https://github.com/jenkinsci/jenkins,"['Java 85.8', 'HTML 6.7', 'JavaScript 2.9', 'SCSS 2.4', 'CSS 1.4', 'Groovy 0.5', 'Other 0.3']",35.91018485
+ansible,https://github.com/ansible/ansible,"['Python 88.0', 'PowerShell 6.9', 'Shell 2.6', 'C# 2.1', 'Jinja 0.4', 'Go 0.0']",34.82383352
+LightGBM,https://github.com/microsoft/LightGBM,"['C++ 50.9', 'Python 20.3', 'R 12.4', 'Cuda 9.6', 'C 3.2', 'Shell 1.5', 'Other 2.1']",50.57094646
+elasticsearch,https://github.com/elastic/elasticsearch,"['Java 99.7', 'Groovy 0.2', 'StringTemplate 0.1', 'Shell 0.0', 'ANTLR 0.0', 'Python 0.0']",64.59588096
+ChatDev,https://github.com/OpenBMB/ChatDev,"['Python 70.6', 'JavaScript 21.4', 'CSS 5.1', 'HTML 2.9']",17.80347797
+gpt-pilot,https://github.com/Pythagora-io/gpt-pilot,"['Python 99.1', 'Other 0.9']",22.70056547
+ToolJet,https://github.com/ToolJet/ToolJet,"['JavaScript 62.8', 'TypeScript 25.4', 'SCSS 10.3', 'HTML 0.4', 'Shell 0.3', 'EJS 0.3', 'Other 0.5']",10.99592823
+DocsGPT,https://github.com/arc53/DocsGPT,"['Python 62.6', 'TypeScript 28.8', 'CSS 2.8', 'JavaScript 2.3', 'HTML 2.0', 'Shell 1.2', 'Dockerfile 0.3']",20.08449801
+ardupilot,https://github.com/ArduPilot/ardupilot,"['C++ 62.9', 'Python 11.3', 'C 10.8', 'Objective-C 9.0', 'Lua 3.1', 'HTML 1.1', 'Other 1.8']",46.19914136
+rust,https://github.com/rust-lang/rust,"['Rust 96.8', 'Shell 0.5', 'JavaScript 0.5', 'Fluent 0.4', 'HTML 0.3', 'Python 0.3', 'Other 1.2']",42.88587096
+brew,https://github.com/Homebrew/brew,"['Ruby 90.4', 'Shell 6.2', 'Roff 2.5', 'HTML 0.6', 'Swift 0.1', 'Rich Text Format 0.1', 'Other 0.1']",12.82272163
+serenity,https://github.com/SerenityOS/serenity,"['C++ 88.6', 'JavaScript 5.1', 'HTML 2.4', 'Shell 1.0', 'C 0.8', 'CMake 0.8', 'Other 1.3']",70.67733676
+jabref,https://github.com/JabRef/jabref,"['Java 90.8', 'TeX 7.0', 'XSLT 1.5', 'CSS 0.5', 'Shell 0.1', 'Python 0.1']",26.6993742
+apps-android-commons,https://github.com/commons-app/apps-android-commons,"['Java 62.3', 'Kotlin 37.3', 'Python 0.3', 'PHP 0.1', 'Shell 0.0', 'Jinja 0.0']",13.18034672
+xwiki-platform,https://github.com/xwiki/xwiki-platform,"['Java 91.0', 'JavaScript 5.7', 'AspectJ 0.8', 'HTML 0.7', 'Vue 0.6', 'CSS 0.3', 'Other 0.9']",42.72624099
+zerocode,https://github.com/authorjapps/zerocode,['Java 100.0'],11.46729705
+sirix,https://github.com/sirixdb/sirix,"['Java 93.4', 'Kotlin 6.2', 'XQuery 0.2', 'XSLT 0.1', 'HTML 0.1', 'Dockerfile 0.0']",25.7803599
+problem-solving-javascript,https://github.com/knaxus/problem-solving-javascript,"['JavaScript 99.9', 'Shell 0.1']",6.32001756
+Python-project-Scripts,https://github.com/larymak/Python-project-Scripts,"['Jupyter Notebook 82.1', 'HTML 8.9', 'Python 4.3', 'CSS 1.6', 'SCSS 1.6', 'JavaScript 0.8', 'Other 0.7']",23.69072652
+earthdata-search,https://github.com/nasa/earthdata-search,"['JavaScript 95.0', 'SCSS 4.7', 'Other 0.3']",11.38001774
+fprime,https://github.com/nasa/fprime,"['C++ 65.6', 'Python 22.9', 'CMake 6.8', 'Fortran 2.8', 'C 1.6', 'Shell 0.3']",2.14373798
+osal,https://github.com/nasa/osal,"['C 97.3', 'CMake 2.3', 'Perl 0.4']",26.46380575
+opencv,https://github.com/opencv/opencv,"['C++ 87.1', 'C 3.3', 'Python 2.7', 'CMake 2.2', 'Java 1.7', 'Objective-C++ 0.9', 'Other 2.1']",79.54240655
+StereoPipeline,https://github.com/NeoGeographyToolkit/StereoPipeline,"['C++ 78.6', 'Python 17.3', 'M4 1.5', 'CMake 0.9', 'XSLT 0.6', 'MATLAB 0.4', 'Other 0.7']",70.14459289
+cumulus,https://github.com/nasa/cumulus,"['JavaScript 80.7', 'TypeScript 10.9', 'HCL 6.6', 'Shell 0.8', 'HTML 0.5', 'Python 0.3', 'Other 0.2']",15.05894369
+hybridq,https://github.com/nasa/hybridq,"['Python 93.5', 'C++ 4.2', 'Shell 1.5', 'Other 0.8']",59.05075634
+astrobee,https://github.com/nasa/astrobee,"['C++ 80.4', 'Python 9.2', 'CMake 5.9', 'Shell 2.1', 'C 1.4', 'Lua 0.6', 'Other 0.4']",55.06415857
+Python-project-Scripts,https://github.com/larymak/Python-project-Scripts,"['Jupyter Notebook 82.1', 'HTML 8.9', 'Python 4.3', 'CSS 1.6', 'SCSS 1.6', 'JavaScript 0.8', 'Other 0.7']",23.69072652
+Inventory-Management-System,https://github.com/Akash-goyal-github/Inventory-Management-System,"['TypeScript 43.1', 'Java 29.4', 'HTML 14.8', 'CSS 11.1', 'JavaScript 1.6']",1.24292427
+Kamu,https://github.com/dewanakl/Kamu,"['PHP 87.8', 'Hack 8.9', 'JavaScript 2.8', 'CSS 0.5']",10.16019109
+vue-mini-player,https://github.com/QingXia-Ela/vue-mini-player,"['HTML 36.3', 'TypeScript 26.3', 'CSS 26.1', 'Less 9.2', 'JavaScript 2.1']",5.29686362
+Open-Source-Catalog,https://github.com/nasa/Open-Source-Catalog,"['JavaScript 77.5', 'Python 22.5']",25.62869021
+xterm,https://github.com/joejulian/xterm,"['C 93.0', 'Perl 3.1', 'Shell 2.8', 'Other 1.1']",70.58118901
+xorg-server,https://github.com/XQuartz/xorg-server,"['C 96.4', 'Roff 1.1', 'Objective-C 1.0', 'Meson 0.8', 'Shell 0.2', 'Python 0.1', 'Other 0.4']",33.3126687
+polybar,https://github.com/polybar/polybar,"['C++ 95.1', 'CMake 3.6', 'Shell 1.1', 'Other 0.2']",53.56710231
+wob,https://github.com/francma/wob,"['C 94.6', 'Meson 5.4']",27.5683022
+way-displays,https://github.com/alex-courtis/way-displays,"['C 84.8', 'C++ 10.8', 'Roff 2.1', 'Makefile 1.6', 'Nix 0.7']",57.27581914
