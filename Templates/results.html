@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>CodeConnect</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="static/style.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+</style>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+
+    <div id = "topnav">
+    <a href="/">
+        <img src="static\logo.png" id="logo">
+    </a>
+        <div id="menus">
+            <a href="aboutus" class="nav-item">About us</a>
+            <a href="howitworks" class="nav-item">How it Works</a>
+            <a href="results" class="nav-item">Get Started</a>
+            <a href="dataset" class="nav-item">Dataset</a>
+        </div>
+        <img id='contact' src="static\Nav-button.png" id="contact">
+    </div>
+    <div id="container">
+        <div id="empty"></div>
+        <div id="search_bar">
+            <input value="Language">
+            <input value="Difficulty">
+            <button>Search</button>
+        </div>
+        <div id="result_container">
+            <div id="categories">
+                <button>Top 100</button>
+                <button>Results</button>
+            </div>
+
+            {% for entry in results %}         
+                <div id="result">
+                    <div id="text_container">
+                        <p>Name: {{ entry.name }}</p>
+                        <p>Language: {{ entry.language }}</p>
+                        <p>Link: {{ entry.link }}</p>
+                        <p>Difficulty: {{ entry.difficulty }}</p>
+                    </div>
+                    <div id = "image_container">
+                        <img src="static\{{entry.language}}.png">
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <script src="static\script.js"></script>
+</body>
+</html>
