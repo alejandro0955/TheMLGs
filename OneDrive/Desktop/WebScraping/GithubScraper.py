@@ -7,23 +7,25 @@ except Exception as e:
     print("Some Modules are Missing {}".format(e))
 
 # URLS of Github Repository Open Source Project that we want to scrape infromation from
-urls = [
-       "https://github.com/torvalds/linux", "https://github.com/tensorflow/tensorflow", "https://github.com/microsoft/vscode",
-        "https://github.com/kubernetes/kubernetes", "https://github.com/pytorch/pytorch", "https://github.com/tiangolo/fastapi",
-        "https://github.com/jupyter/notebook", "https://github.com/flutter/flutter", "https://github.com/OpenMDAO/OpenMDAO-Framework",
-        "https://github.com/facebook/react-native", "https://github.com/openai/DALL-E", "https://github.com/WongKinYiu/yolov7",
-        "https://github.com/jenkinsci/jenkins", "https://github.com/ansible/ansible", "https://github.com/microsoft/LightGBM",
-        "https://github.com/elastic/elasticsearch", "https://github.com/OpenBMB/ChatDev", "https://github.com/Pythagora-io/gpt-pilot",
-        "https://github.com/ToolJet/ToolJet", "https://github.com/arc53/DocsGPT", "https://github.com/ArduPilot/ardupilot",
-        "https://github.com/rust-lang/rust", "https://github.com/Homebrew/brew", "https://github.com/SerenityOS/serenity",
-        "https://github.com/JabRef/jabref", "https://github.com/commons-app/apps-android-commons", "https://github.com/xwiki/xwiki-platform",
-        "https://github.com/authorjapps/zerocode", "https://github.com/sirixdb/sirix", "https://github.com/knaxus/problem-solving-javascript",
-        "https://github.com/larymak/Python-project-Scripts", "https://github.com/nasa/earthdata-search", "https://github.com/nasa/fprime",
-        "https://github.com/nasa/osal", "https://github.com/opencv/opencv", "https://github.com/NeoGeographyToolkit/StereoPipeline",
-        "https://github.com/nasa/cumulus", "https://github.com/nasa/hybridq", "https://github.com/nasa/astrobee",
-        "https://github.com/larymak/Python-project-Scripts", "https://github.com/Akash-goyal-github/Inventory-Management-System", "https://github.com/dewanakl/Kamu",
-        "https://github.com/QingXia-Ela/vue-mini-player", "https://github.com/nasa/Open-Source-Catalog", 
-        ]
+# urls = [
+#       "https://github.com/torvalds/linux", "https://github.com/tensorflow/tensorflow", "https://github.com/microsoft/vscode",
+#        "https://github.com/kubernetes/kubernetes", "https://github.com/pytorch/pytorch", "https://github.com/tiangolo/fastapi",
+#        "https://github.com/jupyter/notebook", "https://github.com/flutter/flutter", "https://github.com/OpenMDAO/OpenMDAO-Framework",
+#        "https://github.com/facebook/react-native", "https://github.com/openai/DALL-E", "https://github.com/WongKinYiu/yolov7",
+#        "https://github.com/jenkinsci/jenkins", "https://github.com/ansible/ansible", "https://github.com/microsoft/LightGBM",
+#        "https://github.com/elastic/elasticsearch", "https://github.com/OpenBMB/ChatDev", "https://github.com/Pythagora-io/gpt-pilot",
+#        "https://github.com/ToolJet/ToolJet", "https://github.com/arc53/DocsGPT", "https://github.com/ArduPilot/ardupilot",
+#        "https://github.com/rust-lang/rust", "https://github.com/Homebrew/brew", "https://github.com/SerenityOS/serenity",
+#        "https://github.com/JabRef/jabref", "https://github.com/commons-app/apps-android-commons", "https://github.com/xwiki/xwiki-platform",
+#        "https://github.com/authorjapps/zerocode", "https://github.com/sirixdb/sirix", "https://github.com/knaxus/problem-solving-javascript",
+#        "https://github.com/larymak/Python-project-Scripts", "https://github.com/nasa/earthdata-search", "https://github.com/nasa/fprime",
+#        "https://github.com/nasa/osal", "https://github.com/opencv/opencv", "https://github.com/NeoGeographyToolkit/StereoPipeline",
+#        "https://github.com/nasa/cumulus", "https://github.com/nasa/hybridq", "https://github.com/nasa/astrobee",
+#        "https://github.com/larymak/Python-project-Scripts", "https://github.com/Akash-goyal-github/Inventory-Management-System", "https://github.com/dewanakl/Kamu",
+#        "https://github.com/QingXia-Ela/vue-mini-player", "https://github.com/nasa/Open-Source-Catalog", 
+#        ]
+
+urls = ["https://github.com/joejulian/xterm", "https://github.com/XQuartz/xorg-server", "https://github.com/polybar/polybar", "https://github.com/francma/wob", "https://github.com/alex-courtis/way-displays", "https://github.com/Hummer12007/brightnessctl.git", "https://github.com/haikarainen/light", "https://github.com/sr/dwm" ]
 
 #Empty arrays to store data
 titles, users, projects, indexs, abouts, license, stars, languages = [], [], [], [], [], [], [], []

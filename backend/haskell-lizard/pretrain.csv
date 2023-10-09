@@ -43,3 +43,13 @@
 41,dewanakl,Kamu,https://github.com/dewanakl/Kamu,"Kamu adalah PHP framework yang sangat sederhana. Saking sederhananya, serasa di localhost!!.",License,6,"['PHP 87.8', 'Hack 8.9', 'JavaScript 2.8', 'CSS 0.5']",335.0,3.6,1.2,13.2,52.0
 42,QingXia-Ela,vue-mini-player,https://github.com/QingXia-Ela/vue-mini-player,A simple mini player powered by petite-vue,MIT license,14,"['HTML 36.3', 'TypeScript 26.3', 'CSS 26.1', 'Less 9.2', 'JavaScript 2.1']",551.0,6.1,2.1,41.4,73.0
 43,nasa,Open-Source-Catalog,https://github.com/nasa/Open-Source-Catalog,Contains the NASA open source software catalog for automatic deployment to code.nasa.gov,License not specified,261,"['JavaScript 77.5', 'Python 22.5']",55.0,5.6,1.7,25.9,7.0
+
+44,joejulian,xterm,https://github.com/joejulian/xterm,Source for the latest xterm,License not specified,30,"['C 93.0', 'Perl 3.1', 'Shell 2.8', 'Other 1.1']",51293.0,29.5,7.8,185.4,1195.0
+45,XQuartz,xorg-server,https://github.com/XQuartz/xorg-server,XQuartz development branches of https://gitlab.freedesktop.org/xorg/xserver,License not specified,267,"['C 96.4', 'Roff 1.1', 'Objective-C 1.0', 'Meson 0.8', 'Shell 0.2', 'Python 0.1', 'Other 0.4']",344354.0,23.9,5.4,150.1,11790.0
+46,polybar,polybar,https://github.com/polybar/polybar,A fast and easy-to-use status bar,MIT license,13k,"['C++ 95.1', 'CMake 3.6', 'Shell 1.1', 'Other 0.2']",24192.0,9.8,2.7,78.1,1713.0
+47,francma,wob,https://github.com/francma/wob,A lightweight overlay volume/backlight/progress/anything bar for Wayland.,ISC license,741,"['C 94.6', 'Meson 5.4']",1534.0,25.2,4.8,168.8,50.0
+48,alex-courtis,way-displays,https://github.com/alex-courtis/way-displays,way-displays: Auto Manage Your Wayland Displays,MIT license,161,"['C 84.8', 'C++ 10.8', 'Roff 2.1', 'Makefile 1.6', 'Nix 0.7']",8758.0,13.2,3.0,95.3,564.0
+49,Hummer12007,brightnessctl,https://github.com/Hummer12007/brightnessctl.git,A program to read and control device brightness,View license,663,"['C 83.1', 'Roff 13.0', 'Makefile 3.9']",632.0,22.4,6.6,132.2,24.0
+50,haikarainen,light,https://github.com/haikarainen/light,GNU/Linux application to control backlights,"Rename license file, GNU licenses are commonly named COPYING",1.2k,"['C 92.9', 'Roff 3.3', 'Makefile 2.2', 'M4 1.5', 'Shell 0.1']",1415.0,17.5,3.2,87.9,70.0
+51,sr,dwm,https://github.com/sr/dwm,mirror of dwm http://hg.suckless.org/dwm,MIT license,174,['C 100.0'],1838.0,16.0,5.9,135.9,91.0
+,
