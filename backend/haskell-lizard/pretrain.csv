@@ -51,4 +51,4 @@
 49,Hummer12007,brightnessctl,https://github.com/Hummer12007/brightnessctl.git,A program to read and control device brightness,View license,663,"['C 83.1', 'Roff 13.0', 'Makefile 3.9']",632.0,22.4,6.6,132.2,24.0
 50,haikarainen,light,https://github.com/haikarainen/light,GNU/Linux application to control backlights,"Rename license file, GNU licenses are commonly named COPYING",1.2k,"['C 92.9', 'Roff 3.3', 'Makefile 2.2', 'M4 1.5', 'Shell 0.1']",1415.0,17.5,3.2,87.9,70.0
 51,sr,dwm,https://github.com/sr/dwm,mirror of dwm http://hg.suckless.org/dwm,MIT license,174,['C 100.0'],1838.0,16.0,5.9,135.9,91.0
-,
+
